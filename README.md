@@ -7,11 +7,11 @@ Keycloak's token exchange is a feature that allows one token to be exchanged for
 
 ## 3. Inject auth0 access token to keycloak
 ### A. Enable Store Token Option
-Keycloak provides the ability to store tokens from identity providers.
-    a. Go to the Keycloak Admin Console.
-    b. Navigate to Identity Providers > Auth0.
-    c. Enable the Store Token toggle.
-        This ensures that Keycloak stores the Auth0 access token after the user authenticates with Auth0.
+Keycloak provides the ability to store tokens from identity providers.<br>
+    a. Go to the Keycloak Admin Console.<br>
+    b. Navigate to Identity Providers > Auth0.<br>
+    c. Enable the Store Token toggle.<br>
+        This ensures that Keycloak stores the Auth0 access token after the user authenticates with Auth0.<br>
 ### B. Add a Protocol Mapper for the Auth0 Token
     To include the Auth0 token in the Keycloak access token (JWT), create a protocol mapper.
     a. Go to Clients in the Keycloak Admin Console.
